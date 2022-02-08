@@ -1,0 +1,364 @@
+/*header*/
+/* .logo-name {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+ padding-left: 40%;
+    display: inline-block; 
+    font-family: cursive;
+    margin-top: 2px;
+    /* margin-left: 10px; */
+
+    .ag-header-row ag-header-row-column {
+        border-left: none;
+    }
+    
+    .nav-logo {
+        margin: 10px;
+        height: 40px;
+        width: 40px;
+    }
+    .home-logo {
+        margin-left: 50%;
+        height: 20%;
+        width: 20%;
+    }
+    /*navbar*/
+    .navHeader {
+        background-color: #000026;
+        height: 80px;
+         /* position: fixed;
+         width: 100%;
+         margin-top: -80px; */
+       /* 
+        width: 100%; */
+        /* position: fixed; */
+    }
+    
+    .navBars {
+        text-decoration: none;
+       
+        margin-left: 35%;
+        margin-top: -75px;
+        padding: 5px;
+        width: 32%;
+        display: flex;
+         list-style: none;
+          justify-content: space-around
+    }
+    
+    .homeIcon,
+    .projectIcon,
+    
+    .blogIcon,
+    .aboutIcon {
+        height: 35px;
+        width: 30px;
+        margin-top: 25px;
+    }
+    .contactIcon
+    {
+        height: 30px;
+        width: 30px;
+        margin-top: 25px;
+    }
+    label {
+        color: white;
+    }
+    .links {
+        color: white;
+        text-decoration: none;
+    }
+    .share
+    {
+        margin-left: 70%;
+    }
+    
+    /* Home page */
+    .Home-container {
+        background-color: #000026;
+        height: 500px;
+        margin: 50px;
+    }
+    #home-tag
+    {
+        margin-top: 30px;
+    }
+    .image {
+        height: 200px;
+        width: 200px;
+    }
+    .hi {
+        color: white;
+        font-weight: bold;
+        padding-left: 200px;
+        padding-top: 100px;
+        font-size: x-large;
+    }
+    .i-am
+    {
+        
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+        padding-left: 200px;
+        display: inline-block;
+    }
+    .name
+    {
+        color: #08fdd8;
+        font-weight: bold;
+        font-size: 42px;
+        margin-left: 19%;
+        margin-top: -4%;
+    }
+    .domain {
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+        padding-left: 200px;
+    }
+    
+    .specifics {
+        color: grey;
+        padding-left: 200px;
+    }
+    .home-buttons
+    {
+     margin-left: 13%;
+    }
+    .home-icon {
+      height: 30px;
+      width: 30px;
+      padding-left: 25px;
+    }
+    
+    /* About */
+    .about {
+        height: 300px;
+        background-color: white;
+        margin: 60px;
+    }
+    .about-title {
+        color: #08083b;
+        margin-left: 50px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .about-content {
+        display: inline-block;
+        width: 40%;
+        margin-left: 50px;
+    }
+    
+    .about-skills
+    {
+        display: inline-block;
+        width: 30%;
+        margin-left: 16%;
+        margin-top: -5%;
+    }
+    .about-icons
+    {
+        height: 50px;
+        width: 50px;
+    }
+    /*Projects */
+    .projects {
+        height: 420px;
+        background-color: #08083b;
+        margin: 60px;
+    }
+    .projects-title {
+        color: white;
+        margin-left: 50px;
+        margin-top: 11%;
+        padding-top: 3%
+    }
+    .projects-content {
+        margin: 20px 9%;
+        display: flex;
+    }
+    .projects-cards {
+        margin: 20px;
+    }
+    .projects-cards:hover .overlay {
+        bottom: 0;
+        height: 100%;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #008cba;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: 0.5s ease;
+    }
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .project-period
+    {
+       
+        color: white;
+        font-weight: bold;
+        font-size: 17px;
+        margin: 42px;
+        font-family: cursive;
+    }
+    .project-Role
+    {
+        color: #08083b;
+        font-size: 20px;
+        justify-content: center;
+        display: flex;
+    }
+    .project-para
+    {
+        color: white;
+        justify-content: center;
+        display: flex;
+        font-weight: bold;
+        
+    }
+    /* Blog */
+    .blogs {
+        margin-top: -4%;
+        height: 700px;
+        background-color: #ffffff;
+    }
+    .blogs-title
+    {
+        color: 000026;
+        margin-left: 50px;
+        margin-top: 5%;
+        padding-top: 3%
+    }
+    .blogs-content
+    {
+        margin-left: 10%;
+      
+        /* display: flex; */
+    }
+    .blogs-card
+    {
+        display: inline-block;
+        margin-left: 5%;
+    }
+    /*contact*/
+    .contact {
+        height: 400px;
+        background-color: white;
+        display: flex;
+        margin-left: 20%;
+       
+    }
+    .contact-info
+    {
+    
+        display: inline-block;
+        color: #28282B;
+        width: 32%;
+        
+    }
+    .ci-title
+    {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-weight: bold;
+    }
+    .contact-form {
+        display: inline-block;
+        margin-left: 18%;
+    }
+    .ci-title
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-weight: bold;
+    }
+    .textArea
+     {    border-color: grey;
+        background-color: transparent;
+        width: 85%;
+        border-radius: 8px;
+        height: 20px;
+        margin: 12px;
+    }
+    .send-btn
+    {
+       display: flex;
+       justify-content: center;
+    }
+    
+    /* Footer */
+    .instaIcon,
+    .twitterIcon,
+    .skypeIcon,
+    .facebookIcon,
+    .linkedinContactIcon{
+        height: 30px;
+        margin-top: 4px;
+        padding-left: 8px;
+        margin-left: 13%;
+       
+        
+    }
+    .linkedinIcon
+    {
+        height: 30px;
+        margin-top: 10px;
+    }
+    
+    .footer-icon
+    {
+        
+        width: 30%;
+        margin-left: 37%;
+        margin-top: 2%;
+    
+    }
+    .footer {
+        height: 300px;
+        background-color: #000026;
+    }
+    .footer-logo
+    {    margin-left: 48%;
+        margin-top: 4%;
+      
+    }
+    .footer-msg
+    {
+        color: grey;
+        display: inline-block;
+        margin-left: 42%;
+        margin-top: -5px;
+       
+    }
+    .footer-name
+    {
+        color: whitesmoke;
+        display: inline-block;
+        margin-top: -5px;
+        font-family: Georgia, 'Times New Roman', Times, serif,
+        
+       
+    }
+    .footer-copy {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: large;
+        margin-top: -5px;
+    }
+    

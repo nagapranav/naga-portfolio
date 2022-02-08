@@ -1,0 +1,30 @@
+{/* <span className='navBars'>
+                        <Link to={"/home"}>
+                            <Stack direction="row" spacing={2}>
+                                <IconButton color="primary" component="span">
+                                    <HomeOutlinedIcon />
+                                </IconButton>
+                            </Stack>
+                        </Link>
+                        <Link to={"/home"} >
+                            <Stack direction="row" spacing={2}>
+                                <IconButton color="primary" aria-label="upload picture" component="span">
+                                    <PermContactCalendarOutlinedIcon />
+                                </IconButton>
+                            </Stack>
+                        </Link>
+                        <Link to={"/home"}>
+                            <Stack direction="row" spacing={2}>
+                                <IconButton color="primary" aria-label="upload picture" component="span">
+                                    <PersonOutlinedIcon />
+                                </IconButton>
+                            </Stack>
+                        </Link>
+                        <Link to={"/home"}>
+                            <Stack direction="row" spacing={2}>
+                                <IconButton color="primary" aria-label="upload picture" component="span">
+                                    <CreateOutlinedIcon />
+                                </IconButton>
+                            </Stack>
+                        </Link>
+                        </span> */}
